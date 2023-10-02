@@ -1,0 +1,30 @@
+name: perception
+description: A Flutter meta framework, using the metaphor of perception.
+version: 0.0.0-a1
+publish_to: none
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  abstractions:
+    git: https://github.com/enspyrco/abstractions
+  error_correction_in_perception:
+    git: https://github.com/enspyrco/error_correction_in_perception
+  framing_in_perception:
+    git: https://github.com/enspyrco/framing_in_perception
+  introspection:
+    git: https://github.com/enspyrco/introspection
+  locator_for_perception:
+    git: https://github.com/enspyrco/locator_for_perception
+  percepts:
+    git: https://github.com/enspyrco/percepts
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  enspyr_lints:
+    git: https://github.com/enspyrco/enspyr_lints
